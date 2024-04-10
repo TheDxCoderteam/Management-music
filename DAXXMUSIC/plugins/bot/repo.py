@@ -71,7 +71,7 @@ InlineKeyboardButton("𝗔𝗦𝗞 𝗠𝗘 𝗗𝗠", url=f"https://t.me/Itz_pr
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/1828f73a119a92336a0da.jpg",
+        photo="https://graph.org/file/218bcc0c386b972f84026.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
