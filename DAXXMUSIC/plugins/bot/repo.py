@@ -71,7 +71,7 @@ InlineKeyboardButton("𝗔𝗦𝗞 𝗠𝗘 𝗗𝗠", url=f"https://t.me/Itz_pr
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/218bcc0c386b972f84026.jpg",
+        photo="https://graph.org/file/1828f73a119a92336a0da.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -94,7 +94,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[SHAYRI](https://t.me/The_F2F_Shayri) | [DPZ](https://t.me/The_F2F_Dpz)
+        text = f"""[REPO LINK](https://t.me/The_F2F_Shayri) | [GROUP](https://t.me/The_F2F_Dpz)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
